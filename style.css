@@ -1,5 +1,5 @@
 @font-face{
-	src: url('../assets/rdr-font.otf') format('opentype');
+	src: url('assets/rdr-font.otf') format('opentype');
 	font-family:'rdr-font';
 }
 *{
@@ -69,7 +69,7 @@ body{
    padding-top: 10vh; 
    padding-bottom: 10vh;
    
-   background-image: url(../assets/bg.jpg);
+   background-image: url(assets/bg.jpg);
    background-size: cover; 
    background-attachment: fixed;
    background-position: center; 
@@ -155,29 +155,29 @@ body{
 }
 
 .div-1:hover { 
-   background-image: url(../assets/arthur.png);
+   background-image: url(assets/arthur.png);
 }
 
 .div-1 {
-   background-image: url(../assets/arthur-black.png);
+   background-image: url(assets/arthur-black.png);
 }
 .div-2:hover { 
-   background-image: url(../assets/john.png);
+   background-image: url(assets/john.png);
 }
 
 .div-2 {
-   background-image: url(../assets/john-black.png);
+   background-image: url(assets/john-black.png);
 }
 
 .arthur-poster{
-   background-image: url(../assets/arthur-poster.webp);
+   background-image: url(assets/arthur-poster.webp);
    background-size: contain; 
    background-position: center; 
    background-repeat: no-repeat;
    opacity: 1;
 }
 .john-poster{
-   background-image: url(../assets/john-poster.webp);
+   background-image: url(assets/john-poster.webp);
    background-size: contain; 
    background-position: center; 
    background-repeat: no-repeat;
